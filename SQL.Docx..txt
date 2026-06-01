@@ -1,0 +1,52 @@
+BEGIN TRANSACTION;
+
+/* Create a table called NAMES */
+CREATE TABLE NAMES(Id integer PRIMARY KEY, Name text);
+
+/* Create few records in this table */
+INSERT INTO NAMES VALUES(1,'Tom');
+INSERT INTO NAMES VALUES(2,'Lucy');
+INSERT INTO NAMES VALUES(3,'Frank');
+INSERT INTO NAMES VALUES(4,'Jane');
+INSERT INTO NAMES VALUES(5,'Robert');
+COMMIT;
+
+/* Display all the records from the table */
+SELECT * FROM NAMES;
+
+output
+
+1|Tom
+2|Lucy
+3|Frank
+4|Jane
+5|Robert
+
+
+--Notes;
+use those SQL commands in the same SQL View area inside Microsoft Access.
+
+Steps again:
+
+Open your Access database
+Click Create
+Click Query Design
+Close the “Show Table” popup
+Click SQL View (top left)
+Paste your SQL command
+Click Run (!)
+
+Example:
+
+SELECT * FROM Cleaner;
+
+After clicking Run, Access will show all records from the Cleaner table.
+
+You use the same place for:
+
+SELECT
+INSERT
+UPDATE
+DELETE
+CREATE TABLE
+--NB;
