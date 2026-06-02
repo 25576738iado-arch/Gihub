@@ -1,2 +1,0 @@
-SELECT * FROM Unit
-WHERE [Unit Code] ="ACCT1501";
