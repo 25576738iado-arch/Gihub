@@ -1,4 +1,3 @@
-
 # Create a list of 5 numbers
 numbers = [42, 7, 19, 94, 23]
 
