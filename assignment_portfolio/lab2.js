@@ -48,8 +48,6 @@ try {
     MAX_LIMIT = 600; 
 } catch (error) {
     console.log(`[Documented Error Summary]: ${error.message}`);
-    // Error Details: TypeError: Assignment to constant variable.
-    // Explanation: Variables declared with 'const' cannot be reassigned after initialization.
 }
 
 
